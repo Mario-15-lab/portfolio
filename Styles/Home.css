@@ -1,0 +1,117 @@
+
+nav{
+    min-height: 10vh;
+    width: 100%;
+    box-shadow: 0 0 5px white;
+    z-index: 11;
+}
+nav h2{
+    float: left;
+}
+nav .menu ul li{
+    color: white;
+    display: inline-block;
+    margin-left: 80px;
+}
+nav .menu ul li a{
+    color: white;
+    text-decoration: none;
+}
+nav .menu ul li a:hover{
+    color: yellow;
+}
+header{
+    position: fixed;
+    width: 100%;
+    margin-top: -10vh;
+}
+.menu{
+    float: right;
+}
+.banner1{
+    margin-top: 10vh;
+    height: 70vh;
+    width: 100%;
+    background-image: url(../Assets/img/calltos-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.description{
+    width: 60%;
+    height: auto;
+    float: left;
+    margin-top: 20vh;
+    /* background-color: rgba(0, 0, 0, 0.331); */
+    /* padding: 3%; */
+    border-top-left-radius: 55px;
+    border-bottom-right-radius: 55px;
+}
+.description h1{
+    text-align: left !important;
+    font-size: 3.5em;
+}
+
+.description p{
+    font-size: em;
+}
+.photos{
+    height: auto;
+    width: auto;
+    float: right;
+    margin-top: 10vh;
+}
+.about{
+    height: auto;
+    width: 100%;
+    padding-bottom: 10% !important;
+    padding-top: 6% !important;
+}
+.infos{
+    height: auto;
+    width: 50%;
+}
+.illustration{
+    height: 50vh;
+    width: 50%;
+}
+.illustration img{
+    margin-top: -5vh;
+    z-index: 0;
+}
+.tittle h1{
+    font-size: 3em;
+    font-weight: bold;
+}
+.tittle{
+    height: 40vh;
+    width: 100%;
+    background-image: url(../Assets/img/callto-bg.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.experiences{
+    height: auto;
+    width: 100%;
+    background-image: url(../Assets/img/breadcrumb-bg.jpg);
+    background-position: left;
+
+}
+.ombre{
+    height: auto;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.712);
+}
+.portfolio{
+    height: auto;
+    width: 100%;
+    padding-top: 7% !important;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.448);
+}
+.portfolio img:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+footer{
+    height: 30vh;
+    width: 100%;
+}
